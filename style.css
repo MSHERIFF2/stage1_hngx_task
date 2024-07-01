@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+   
+.container{
+    /* border: 2px solid red; */
+    margin: auto;   
+    max-width: auto;
+    width: 900px;
+    padding: 17px;
+    box-shadow: 2px 2px 3px rgba(12 14 15 .6);
+    border-radius: 10px;
+}
+.containerLink{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.containerLink a{
+    margin: 4px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.containerLink a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+    transition: .5s ease-in-out;
+}
+
+
+img{
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+.spacing{
+    
+    margin-top: 12px;   
+    font-size: 20px;
+   
+}
+.techGoal h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.techGoal{
+    margin: 4px;
+    padding: 4px;
+}
+.techGoal p{
+    font-size: 18px;
+}
+.techGoal ul ol li{
+    margin-left: 18px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+.techGoal ul{
+    font-size: 20px;
+    color: blue;
+    border-radius: 10px;
+}
+
+/* mobile view */
+@media (max-width:768px){
+    .container{
+       
+        width: 90%;
+        padding: 5px;
+    }
+    .containerLink{
+        display: flex;
+        flex-direction: column;    
+        justify-content: space-evenly;
+        justify-items: center;
+    }
+    .containerLink a{
+        margin: 4px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+    .containerLink a:hover{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        padding: 9px;
+        transition: .5s ease-in-out;
+    }
+    
+    
+    img{
+        border-radius: 5px;
+        margin: auto;
+        display: block;
+    }
+    .spacing{
+        
+        margin-top: 12px;   
+       
+    }
+    .techGoal h1{
+        background-color: blue;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .techGoal{
+        margin: 4px;
+        padding: 4px;
+    }
+    .techGoal p{
+        font-size: 18px;
+    }
+    .techGoal ul ol li{
+        margin-left: 18px;
+        color: black;
+        background-color: white;
+        font-size: 16px;
+    }
+    .techGoal ul{
+        font-size: 20px;
+        color: blue;
+        border-radius: 10px;
+    }
+}
