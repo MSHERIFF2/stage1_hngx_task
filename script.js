@@ -11,10 +11,6 @@ const currentDayElement = document.querySelector('[data-testid="currentDay"]')
 setInterval(()=>{
     const now = new Date();
     const utcDay = now.toLocaleDateString('en-US', 
-        {weekday: 'long', 
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric'
-     });
+        {weekday: 'long'});
     currentDayElement.innerText = utcDay;
 },1000)
