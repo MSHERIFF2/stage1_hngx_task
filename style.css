@@ -1,14 +1,13 @@
 *{
     margin:0;
     padding:0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: arial;
     
 }
 
 
    
 .container{
-    /* border: 2px solid red; */
     margin: auto;   
     max-width: auto;
     width: 900px;
@@ -91,6 +90,8 @@ img{
         text-decoration: none;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 16px;
+        back-ground: grey;
+        color: white;
     }
     .containerLink a:hover{
         background-color: blue;
@@ -102,7 +103,7 @@ img{
     
     
     img{
-        border-radius: 5px;
+       
         margin: auto;
         display: block;
     }
