@@ -11,9 +11,8 @@
     margin: auto;   
     max-width: auto;
     width: 900px;
-    padding: 17px;
-    box-shadow: 2px 2px 3px rgba(12 14 15 .6);
-    border-radius: 10px;
+    padding: 10px;
+    
 }
 .containerLink{
     display: flex;
@@ -117,6 +116,7 @@ img{
         color: white;
         text-align: center;
         border-radius: 10px;
+        font-size: 15px;
     }
     .techGoal{
         margin: 4px;
